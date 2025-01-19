@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Tablou">
+            <title>Comandă</title>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+            <link href="../css/style_comanda.css" rel="stylesheet">
+            <link rel="icon" href="../img/intro/logo-w.png">
+            <script src="../js/script_comanda.js"></script>
+    </head>
+
+    <body>
+        <div class="btn-container">
+            <a href="../index.html">tablou</a>
+        </div>
+
+        <div class="contact">
+            <div class="title">
+                <h1>Comandă</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="contactForm" class="form">
+                <form onsubmit="submitContactForm(event)">
+                    <div class="text-input">
+                        <div class="input">
+                            <div class="list-input-1">
+                                <input hidden type="text" id="date" name="entry.1405858156">
+                                <input type="text" id="name" name="entry.803247879" placeholder="nume" required autocomplete="on">
+                                <input type="text" id="phone" name="entry.1738454739" placeholder="telefon" required autocomplete="on">
+                                <input type="email" id="email" name="entry.2025051465" placeholder="e-mail" required autocomplete="on">
+        
+                                <div class="list">
+                                    <label for="GDPR">
+                                        <a href="../pages/terms.html">'Am citit și sunt de acord cu termenii și condițiile de utilizare'</a>
+                                    </label>
+                                    <input type="checkbox" id="GDPR" name="GDPR" required>
+                                </div>
+                            </div>
+        
+                            <div class="list-input-2">
+                                <textarea required="message" id="project-details" name="entry.1501744905" placeholder="detalii despre comanda ta"></textarea>
+                                <input type="submit" id="ContactFormButton" value="Trimite">
+                            </div>    
+                        </div>
+        
+                    </div> 
+                </form>
+            </div>
+        </div>
+
+        <div class="price">
+            <p>Plata produsului se va face prin transfer bancar dupa confirmarea comenzii de catre noi prin apel telefonic sau prin e-mail.</p>
+        </div>
+
+    </body>
+    
+    <footer>
+        <div class="footer">
+            <div class="pages">
+                <a href="../pages/terms.html" target="_blank">Termeni și Condiții</a>
+                <a href="../pages/privacy.html" target="_blank">Politica de Confidențialitate</a>
+                <a href="../pages/livrare.html" target="_blank">Comandă și Livrare</a>
+                <a href="https://anpc.ro/" target="_blank">ANPC</a>
+                <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO" target="_blank">SOL</a>
+            </div>
+        </div>
+    </footer>
+
+</html>

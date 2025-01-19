@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Quicksand', 'Courier New', Courier, monospace;
+}
+
+/* intro */
+
+.grid-0 {
+    height: 20vh;
+    background-image: url("../img/intro/20240917_161626.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+
+.left {
+    background-color: #fff;
+    padding: 2rem;
+    justify-items: center;
+}
+
+.contact-data {
+    display: flex;
+    gap: 3rem;
+}
+
+.phone {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.email {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.grey {
+    color: #929292;
+}
+
+.logo {
+    padding: 10rem 0 10rem 0;
+}
+
+
+
+.logo-extended {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 2rem 0 2rem 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 0 2rem 0;
+}
+
+
+
+
+.footer {
+    display: flex;
+    gap: 2rem;
+    color: #929292;
+    font-size: 14px;
+}
+
+
+
+/* intro-content */
+
+.right {
+    background-color: #efefef;
+    padding: 4rem 2rem 4rem 2rem;
+}
+
+.about-data {
+    padding: 0 0 8rem 0;
+}
+
+.despre {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 0 2rem 0;
+}
+
+.bold {
+    line-height: 5rem;
+    font-size: 18px;
+    color: #929292;
+}
+
+.contact {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    width: 100%;
+    margin: 2rem 0 0 0;
+    padding: 1rem;
+}
+
+.contact-btn:hover {
+    background: #fff;
+    color: #111;
+}
+
+
+
+/* 1 */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;     
+    background-color: #fff;
+    height: 100%;
+}
+
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image:hover {
+    filter: grayscale(70%);
+    opacity: 80%;
+    cursor: pointer;
+} 
+
+
+
+.content {
+    padding: 4rem;
+    border: 1px solid #111;
+    align-content: center;
+}
+
+.model {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #929292;
+    margin: 0 0 1rem 0;
+}
+
+.rama {
+    padding: 2rem;
+    border: 1px solid #929292;
+}
+
+.details {
+    padding: 1rem 0 0 0;
+}
+
+.dimensiuni {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color {
+    padding: 2rem;
+    border: 1px solid #929292;
+    margin: 1rem 0 1rem 0;
+}
+
+.colors {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.texture {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.texture p {
+    line-height: 3rem;
+}
+
+.alb, .negru, .stejar, .nuc {
+    text-align: center;
+}
+
+.alb img {
+    border: 1px solid #111;
+}
+
+
+.price {
+    padding: 2rem;
+    border: 1px solid #929292;
+}
+
+.pret {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+/* bts */
+
+.contact-btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    width: 100%;
+    margin: 2rem 0 0 0;
+    padding: 1rem;
+}
+
+.contact-btn:hover {
+    background: #fff;
+    color: #111;
+}
+
+
+.contact-btn-price {
+    background: #111;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    width: 100%;
+    margin: 2rem 0 0 0;
+    padding: 1rem;
+}
+
+.contact-btn-price:hover {
+    background: #efefef;
+    color: #111;
+}
+
+
+/* footer */
+
+.footer {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 2rem 0 2rem 0;
+}
+
+.pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+.footer a {
+    color: #929292;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #111;
+    text-decoration: none;
+}
+
+
