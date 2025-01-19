@@ -6,6 +6,10 @@
     font-family: 'Quicksand', 'Courier New', Courier, monospace;
 }
 
+.container {
+    max-width: 1400px;
+    margin-inline: auto;
+}
 
 .contact {
     max-width: 1400px;
@@ -40,7 +44,6 @@
 
 
 
-
 .content {
     max-width: 1400px;
     margin: 4rem auto 4rem auto;
@@ -50,24 +53,21 @@
     padding: 4rem 2rem 3rem 2rem;
 }
 
-    .form .input {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+    .input {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
         gap: 2rem;
     }
 
     .list-input-1 {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
-        gap: 1.2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+        gap: 1rem;
     }
 
     .list-input-2  {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 1rem;
     }
 
@@ -76,15 +76,14 @@
         border: 1px solid #929292;
         color: #111;
         padding: 1rem;
-
     }
 
-    .list-input-2 textarea {
-        min-height: 12rem;
+    textarea {
+        min-height: 4rem;
         border: 1px solid #929292;
         color: #111;
         padding: 1rem;
-        resize: none;
+        resize: vertical;
     }
 
 

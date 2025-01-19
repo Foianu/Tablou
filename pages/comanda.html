@@ -15,50 +15,54 @@
     </head>
 
     <body>
-        <div class="btn-container">
-            <a href="../index.html">tablou</a>
-        </div>
-
-        <div class="contact">
-            <div class="title">
-                <h1>Comandă</h1>
+        <div class="container">
+            <div class="btn-container">
+                <a href="../index.html">tablou</a>
             </div>
-        </div>
 
-        <div class="content">
-            <div id="contactForm" class="form">
-                <form onsubmit="submitContactForm(event)">
-                    <div class="text-input">
-                        <div class="input">
-                            <div class="list-input-1">
-                                <input hidden type="text" id="date" name="entry.1405858156">
-                                <input type="text" id="name" name="entry.803247879" placeholder="nume" required autocomplete="on">
-                                <input type="text" id="phone" name="entry.1738454739" placeholder="telefon" required autocomplete="on">
-                                <input type="email" id="email" name="entry.2025051465" placeholder="e-mail" required autocomplete="on">
-        
+            <div class="contact">
+                <div class="title">
+                    <h1>Comandă</h1>
+                </div>
+            </div>
+
+            <div class="content">
+                <div id="contactForm" class="form">
+                    <form onsubmit="submitContactForm(event)">
+                        <div class="text-input">
+                            <div class="input">
+                                
+                                <div class="list-input-1">
+                                    <input hidden type="text" id="date" name="entry.1405858156">
+                                    <input type="text" id="name" name="entry.803247879" placeholder="nume" required autocomplete="on">
+                                    <input type="text" id="phone" name="entry.1738454739" placeholder="telefon" required autocomplete="on">
+                                    <input type="email" id="email" name="entry.2025051465" placeholder="e-mail" required autocomplete="on">
+                                </div>
+
+                                <textarea required="message" id="project-details" name="entry.1501744905" placeholder="detalii despre comanda ta"></textarea>
+                            </div>
+
+                            <div class="list-input-2">
                                 <div class="list">
                                     <label for="GDPR">
                                         <a href="../pages/terms.html">'Am citit și sunt de acord cu termenii și condițiile de utilizare'</a>
                                     </label>
                                     <input type="checkbox" id="GDPR" name="GDPR" required>
                                 </div>
-                            </div>
-        
-                            <div class="list-input-2">
-                                <textarea required="message" id="project-details" name="entry.1501744905" placeholder="detalii despre comanda ta"></textarea>
+
                                 <input type="submit" id="ContactFormButton" value="Trimite">
-                            </div>    
-                        </div>
-        
-                    </div> 
-                </form>
+
+                            </div>  
+            
+                        </div> 
+                    </form>
+                </div>
+            </div>
+
+            <div class="price">
+                <p>Plata produsului se va face prin transfer bancar dupa confirmarea comenzii de catre noi prin apel telefonic sau prin e-mail.</p>
             </div>
         </div>
-
-        <div class="price">
-            <p>Plata produsului se va face prin transfer bancar dupa confirmarea comenzii de catre noi prin apel telefonic sau prin e-mail.</p>
-        </div>
-
     </body>
     
     <footer>

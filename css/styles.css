@@ -21,6 +21,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     align-content: center;
+    justify-content: center;
 }
 
 
@@ -288,10 +289,4 @@ ul {
 
 
 
-/* mobile */
-/*
-@media (min-width: 600px) {
-    .grid-1 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-  }
-*/
  
