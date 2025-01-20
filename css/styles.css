@@ -39,15 +39,45 @@
 .phone {
     display: flex;
     gap: 0.5rem;
+    font-size: 2vh;
+    font-weight: 600;
+    align-items: center;
+}
+
+.phone a {
+    text-decoration: none;
+    color: #111;
+}
+
+.phone a:hover {
+    text-decoration: none;
+    color: #5c47fe;
 }
 
 .email {
     display: flex;
     gap: 0.5rem;
+    font-size: 2vh;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.email a {
+    text-decoration: none;
+    color: #111;
+}
+
+.email a:hover {
+    text-decoration: none;
+    color: #5c47fe;
 }
 
 .grey {
     color: #929292;
+    font-size: 2vh;
+    align-items: center;
+
 }
 
 .logo {
@@ -61,6 +91,7 @@
     justify-content: space-between;
     align-items: end;
     padding: 2rem 0 2rem 0;
+    font-size: 1.8vh;
 }
 
 .icons {
@@ -99,24 +130,6 @@
 .contact {
     font-size: 18px;
     font-weight: bold;
-}
-
-.contact-btn {
-    background: #111;
-    color: #fff;
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    
-    width: 100%;
-    margin: 2rem 0 0 0;
-    padding: 1rem;
-}
-
-.contact-btn:hover {
-    background: #fff;
-    color: #111;
 }
 
 
@@ -226,7 +239,7 @@ ul {
     background: #111;
     color: #fff;
     border: none;
-    font-size: 18px;
+    font-size: 2vh;
     font-weight: bold;
     cursor: pointer;
     
@@ -245,7 +258,7 @@ ul {
     background: #111;
     color: #fff;
     border: none;
-    font-size: 18px;
+    font-size: 2vh;
     font-weight: bold;
     cursor: pointer;
     
@@ -285,8 +298,6 @@ ul {
     color: #111;
     text-decoration: none;
 }
-
-
 
 
  

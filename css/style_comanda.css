@@ -13,7 +13,7 @@
 
 .contact {
     max-width: 1400px;
-    margin: 8rem auto 4rem auto;
+    margin: 8rem 2rem 4rem 2rem;
     align-content: center;
     color: #111;
 }
@@ -68,7 +68,7 @@
     .list-input-2  {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 1rem;
+        gap: 2rem;
     }
 
     .list-input-1 input {
@@ -76,14 +76,23 @@
         border: 1px solid #929292;
         color: #111;
         padding: 1rem;
+        font-size: 1.2vh;
     }
 
     textarea {
-        min-height: 4rem;
+        min-height: 10rem;
         border: 1px solid #929292;
         color: #111;
         padding: 1rem;
+        font-size: 1.2vh;
         resize: vertical;
+    }
+
+
+    .checkbox-terms {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
 
@@ -110,8 +119,8 @@
     background: #111;
     color: #fff;
     border: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 2vh;
+    font-weight: 600;
     cursor: pointer;
     
     width: 100%;
@@ -127,8 +136,8 @@
 .price {
     max-width: 1400px;
     margin-inline: auto;
-    margin: 4rem auto 4rem auto;
-
+    margin: 2rem;
+    font-size: 1.8vh;
 }
 
 
@@ -137,7 +146,7 @@
 .footer {
     max-width: 1200px;
     margin-inline: auto;
-    padding: 2rem 0 2rem 0;
+    padding: 4rem 0 2rem 0;
 }
 
 .pages {
