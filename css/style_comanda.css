@@ -76,7 +76,7 @@
         border: 1px solid #929292;
         color: #111;
         padding: 1rem;
-        font-size: 1.2vh;
+        font-size: 1vh;
     }
 
     textarea {
@@ -84,7 +84,7 @@
         border: 1px solid #929292;
         color: #111;
         padding: 1rem;
-        font-size: 1.2vh;
+        font-size: 1vh;
         resize: vertical;
     }
 
@@ -105,6 +105,8 @@
     .list a {
         color: #111;
         cursor: pointer;
+        font-size: 18px;
+
     }
 
         .list a:hover {
@@ -140,8 +142,8 @@
     font-size: 1.8vh;
 }
 
-
-/* footer */
+/*
+/* footer 
 
 .footer {
     max-width: 1200px;
@@ -166,4 +168,4 @@
     color: #111;
     text-decoration: none;
 }
-
+*/
