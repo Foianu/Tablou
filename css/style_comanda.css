@@ -76,7 +76,7 @@
         border: 1px solid #929292;
         color: #111;
         padding: 1rem;
-        font-size: 1vh;
+        font-size: 18px;
     }
 
     textarea {
@@ -84,7 +84,7 @@
         border: 1px solid #929292;
         color: #111;
         padding: 1rem;
-        font-size: 1vh;
+        font-size: 18px;
         resize: vertical;
     }
 
