@@ -217,7 +217,7 @@
     line-height: 3rem;
 }
 
-.alb, .negru, .stejar, .nuc {
+.alb, .alb-negru, .negru, .stejar, .nuc {
     text-align: center;
 }
 
@@ -225,6 +225,9 @@
     border: 1px solid #111;
 }
 
+.alb-negru img {
+    border: 1px solid #111;
+}
 
 .price {
     padding: 2rem;
