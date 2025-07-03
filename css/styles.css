@@ -31,6 +31,15 @@
     justify-items: center;
 }
 
+.left-img {
+    height: 90vh;
+    background-image: url("../img/intro/20240917_161626.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+
 .contact-data {
     display: flex;
     gap: 3rem;
@@ -301,3 +310,28 @@ ul {
 
 
  
+
+
+.arrow-btn {
+    margin: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn-container a {
+    text-decoration: none;
+    color:#111;
+    font-size: 24px;
+}
+
+.btn-container a:hover {
+    text-decoration: none;
+    color:#929292;
+    font-size: 24px;
+}
