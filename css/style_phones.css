@@ -10,6 +10,13 @@ body {
     background-color: #fff;
 }
 
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));   
+    background-color: #fff;
+    height: 100%;
+}
+
 
 .arrow-btn {
     margin: 2rem;
@@ -33,14 +40,6 @@ body {
     text-decoration: none;
     color:#929292;
     font-size: 24px;
-}
-
-
-.grid-content {
-    max-width: 1200px;
-    margin-inline: auto;
-    background-color: #fff;
-    color: #111;
 }
 
 
