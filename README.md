@@ -1,3 +1,4 @@
-![tablou_1](https://github.com/user-attachments/assets/9a55c629-59e5-4fc1-9ac9-76e99b8d88a7)
-![tablou_2](https://github.com/user-attachments/assets/8d7cc3cf-b8f1-4c58-b90f-f431dddcdab3)
-![tablou_3](https://github.com/user-attachments/assets/1091d2b7-ffff-4ae2-b850-71e3ff642541)
+![Readme_Index](https://github.com/user-attachments/assets/1c76a5b7-d66f-4bf7-9069-41de02eaa45b)
+![Readme_Phones](https://github.com/user-attachments/assets/c3d706f7-cdcb-492f-819c-c8bf156a56a8)
+![Readme_Blueprints](https://github.com/user-attachments/assets/269d6ae7-ca34-4dbd-a7c7-65f37b6301a4)
+![Readme_Comanda](https://github.com/user-attachments/assets/3f9e3195-96ed-4164-a262-0fc36da259be)
