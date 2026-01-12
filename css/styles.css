@@ -24,7 +24,6 @@
     justify-content: center;
 }
 
-
 .left {
     background-color: #fff;
     padding: 2rem;
@@ -38,6 +37,8 @@
     background-size: cover;
     background-position: top;
 }
+
+
 
 
 .contact-data {
@@ -60,7 +61,7 @@
 
 .phone a:hover {
     text-decoration: none;
-    color: #5c47fe;
+    color: #fe4756;
 }
 
 .email {
@@ -79,37 +80,33 @@
 
 .email a:hover {
     text-decoration: none;
-    color: #5c47fe;
+    color: #fe4756;
 }
 
 .grey {
     color: #929292;
     font-size: 1.6vh;
     align-items: center;
-
 }
 
 .logo {
-    padding: 10rem 0 10rem 0;
+    padding: 10rem 0 2rem 0;
 }
-
 
 
 .logo-extended {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    padding: 2rem 0 2rem 0;
     font-size: 1.6vh;
+    padding: 2rem 0 2rem 0;
 }
 
 .icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
-    padding: 0 0 2rem 0;
-    color: #5c47fe;
+    padding: 5rem 1rem;
 }
 
 
@@ -144,6 +141,12 @@
 }
 
 
+.contact-comanda {
+    padding: 8rem 0 8rem 0;
+    gap: 1;
+    background-color: red;
+}
+
 
 /* 1 */
 
@@ -153,7 +156,6 @@
     background-color: #fff;
     height: 100%;
 }
-
 
 .image {
     width: 100%;
@@ -255,25 +257,6 @@ ul {
 
 /* bts */
 
-.contact-btn {
-    background: #111;
-    color: #fff;
-    border: none;
-    font-size: 2vh;
-    font-weight: bold;
-    cursor: pointer;
-    
-    width: 100%;
-    margin: 2rem 0 0 0;
-    padding: 1rem;
-}
-
-.contact-btn:hover {
-    background: #fff;
-    color: #111;
-}
-
-
 .contact-btn-price {
     background: #111;
     color: #fff;
@@ -320,7 +303,20 @@ ul {
 }
 
 
+
+
+
+.footer-icons {
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
+
+
+
 
 
 .arrow-btn {
@@ -414,6 +410,11 @@ ul {
         .list a:hover {
             color: #929292;
         }
+
+
+
+
+
 
 /* btn comanda */
 

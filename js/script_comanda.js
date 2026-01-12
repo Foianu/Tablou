@@ -13,7 +13,7 @@ let submitContactForm = function(event) {
         mode: "no-cors",
         body: new FormData(event.target)
     }).then(function () {
-        document.getElementById("ContactFormButton").style.background = "#5c47fe";
+        document.getElementById("ContactFormButton").style.background = "#fe4756";
         document.getElementById("ContactFormButton").disabled = true;
 
         document.getElementById("name").value = ""
