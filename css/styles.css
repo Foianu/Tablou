@@ -110,8 +110,6 @@
 }
 
 
-
-
 /* intro-content */
 
 .right {
@@ -172,7 +170,7 @@
 
 
 .content {
-    padding: 10rem;
+    padding: 4rem;
     border: 1px solid #111;
     align-content: center;
 }
@@ -444,5 +442,5 @@ ul {
 /* mobile */
 
 @media (max-width: 900px) {
-    
+
 }
