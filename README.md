@@ -1,4 +1,5 @@
-![Readme_Index](https://github.com/user-attachments/assets/1c76a5b7-d66f-4bf7-9069-41de02eaa45b)
-![Readme_Phones](https://github.com/user-attachments/assets/c3d706f7-cdcb-492f-819c-c8bf156a56a8)
-![Readme_Blueprints](https://github.com/user-attachments/assets/269d6ae7-ca34-4dbd-a7c7-65f37b6301a4)
-![Readme_Comanda](https://github.com/user-attachments/assets/3f9e3195-96ed-4164-a262-0fc36da259be)
+Website : https://www.tablou.tech/
+
+<img width="2043" height="1024" alt="index_2" src="https://github.com/user-attachments/assets/7caddacc-6cf8-4658-ae64-bcb3854ce499" />
+<img width="2042" height="1028" alt="index_1" src="https://github.com/user-attachments/assets/46d3a546-51db-4054-bad8-8269a12fed65" />
+<img width="2040" height="1286" alt="index_0" src="https://github.com/user-attachments/assets/7209dbba-c895-4a08-adaa-017323b00ee4" />
