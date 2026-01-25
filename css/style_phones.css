@@ -15,6 +15,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));   
     background-color: #fff;
     height: 100%;
+    pointer-events: none;
 }
 
 
