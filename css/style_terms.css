@@ -102,8 +102,13 @@ li a:hover {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto 0 auto;
+}
+
+.company {
+    color: #929292;
+    padding: 1rem 0 0 0;
 }
 
 
