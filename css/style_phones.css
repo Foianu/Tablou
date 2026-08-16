@@ -89,3 +89,19 @@ body {
     text-decoration: none;
 }
 
+
+/* mobile */
+
+@media (max-width: 900px) {
+
+    .grid-content {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .pages {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+

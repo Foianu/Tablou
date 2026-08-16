@@ -6,6 +6,15 @@
     font-family: 'Quicksand', 'Courier New', Courier, monospace;
 }
 
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* intro */
 
 .grid-0 {
@@ -43,7 +52,8 @@
 
 .contact-data {
     display: flex;
-    gap: 3rem;
+    flex-wrap: wrap;
+    gap: 1.5rem 3rem;
 }
 
 .phone {
@@ -52,11 +62,13 @@
     font-size: 1.6vh;
     font-weight: 600;
     align-items: center;
+    min-width: 0;
 }
 
 .phone a {
     text-decoration: none;
     color: #111;
+    overflow-wrap: anywhere;
 }
 
 .phone a:hover {
@@ -70,12 +82,14 @@
     font-size: 1.6vh;
     font-weight: 600;
     align-items: center;
+    min-width: 0;
 
 }
 
 .email a {
     text-decoration: none;
     color: #111;
+    overflow-wrap: anywhere;
 }
 
 .email a:hover {
@@ -107,6 +121,29 @@
     justify-content: space-between;
     align-items: center;
     padding: 5rem 1rem;
+}
+
+
+.lang-bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    padding: 1rem 3rem 4rem 0;
+}
+
+.lang-bar a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.6vh;
+    font-weight: 600;
+}
+
+.lang-bar a:hover {
+    text-decoration: underline;
+}
+
+.lang-bar a.active {
+    text-decoration: underline;
 }
 
 
@@ -452,4 +489,101 @@ ul {
 
 @media (max-width: 900px) {
 
+    .grid-1,
+    .grid,
+    .input,
+    .list-input-1,
+    .list-input-2 {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .left {
+        padding: 1.5rem;
+    }
+
+    .phone,
+    .email,
+    .grey,
+    .lang-bar a {
+        font-size: 0.9rem;
+    }
+
+    .rama p {
+        font-size: 1.35rem;
+        line-height: 1.8;
+    }
+
+    .color p {
+        font-size: 1.35rem;
+        line-height: 1.7;
+    }
+
+    .lang-bar {
+        justify-content: flex-end;
+        padding: 1rem 2rem 2rem 0;
+    }
+
+    .logo {
+        padding: 3rem 0 1rem 0;
+    }
+
+    .icons {
+        padding: 2rem 1rem;
+    }
+
+    .right {
+        padding: 2rem 1rem;
+    }
+
+    .about-data {
+        padding: 0 0 3rem 0;
+    }
+
+    .bold {
+        line-height: 2.5rem;
+    }
+
+    .contact-comanda {
+        padding: 3rem 0 3rem 0;
+    }
+
+    .content {
+        padding: 1.5rem;
+    }
+
+    .model,
+    .dimensiuni,
+    .pret,
+    .list,
+    .checkbox-terms,
+    .colors {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .texture {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .pages {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .footer-icons {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .btn-container a {
+        font-size: 18px;
+    }
+
+    .contact-btn-price,
+    #ContactFormButton {
+        font-size: 1rem;
+    }
 }

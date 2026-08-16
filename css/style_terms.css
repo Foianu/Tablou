@@ -122,3 +122,35 @@ li a:hover {
     color: #111;
     text-decoration: none;
 }
+
+
+/* mobile */
+
+@media (max-width: 900px) {
+
+    .content {
+        margin: 3rem auto 3rem auto;
+        padding: 0 1rem;
+    }
+
+    .text {
+        padding: 2rem 0 2rem 0;
+    }
+
+    .text ul, .text ol {
+        line-height: 2.5rem;
+    }
+
+    .pages {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .btn-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem;
+    }
+}
