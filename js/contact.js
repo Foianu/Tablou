@@ -2,9 +2,9 @@
 // Schimbi numărul / emailul aici și se actualizează pe toate paginile.
 
 const CONTACT = {
-    telefon: "+40775344737",          // pentru linkul de apel
-    telefonAfisat: "0775 344 737",    // cum apare scris pe site
-    whatsapp: "40775344737",          // fără + (așa cere WhatsApp)
+    telefon: "+40775344737",            // pentru linkul de apel
+    telefonAfisat: "+40 775 344 737",   // cum apare scris pe site
+    whatsapp: "40775344737",            // fără + (așa cere WhatsApp)
     email: "tablou.tech@gmail.com",
     instagram: "https://www.instagram.com/tablou.tech/",
 };
